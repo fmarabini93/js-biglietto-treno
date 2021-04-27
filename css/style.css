@@ -10,7 +10,7 @@ body {
     position: relative;
     font-family: 'Original Surfer', cursive;
     color: white;
-    background-image: linear-gradient(to bottom right, red, white);
+    background-image: linear-gradient(to bottom right, red, brown);
 }
 
 ul {
@@ -22,8 +22,18 @@ ul li {
     font-size: 20px;
 }
 
-i {
+#mask {
     position: absolute;
     bottom: 20%;
     left: 5%;
+    color: white;
+}
+#mask h2 {
+    margin-bottom: 5%;
+}
+
+.fa-train {
+    position: absolute;
+    bottom: 20%;
+    right: 5%;
 }

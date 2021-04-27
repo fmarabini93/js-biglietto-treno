@@ -1,5 +1,5 @@
 var km = parseInt(prompt("How many kilometers will you travel? (Only numbers accepted)"));
-var age = parseInt(prompt("How old are you?"));
+var age = parseInt(prompt("How old are you? (Only numbers accepted)"));
 var cost = (km * 0.21);
 var discount20 = cost - (cost / 5);
 var discount40 = cost - ((cost / 5) * 2);
