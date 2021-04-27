@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    padding: 5%;
+    position: relative;
+    font-family: 'Original Surfer', cursive;
+    color: white;
+    background-image: linear-gradient(to bottom right, red, white);
+}
+
+ul {
+    margin-top: 5%;
+    list-style: none;
+}
+ul li {
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+i {
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+}
