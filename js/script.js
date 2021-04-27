@@ -3,13 +3,14 @@ var age = parseInt(prompt("How old are you? (Only numbers accepted)"));
 var cost = (km * 0.21);
 var discount20 = cost - (cost / 5);
 var discount40 = cost - ((cost / 5) * 2);
+var finalCost
 
 if (age < 18) {
-    var finalCost = Math.round(discount40 * 100 + Number.EPSILON) / 100;
+    finalCost = Math.round(discount40 * 100 + Number.EPSILON) / 100;
 } else if (age >= 65) {
-    var finalCost = Math.round(discount40 * 100 + Number.EPSILON) / 100;
+    finalCost = Math.round(discount40 * 100 + Number.EPSILON) / 100;
 } else {
-    var finalCost = Math.round(cost * 100 + Number.EPSILON) / 100;
+    finalCost = Math.round(cost * 100 + Number.EPSILON) / 100;
 }
 
 document.getElementById("price").innerHTML = finalCost;
