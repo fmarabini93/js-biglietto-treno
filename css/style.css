@@ -13,6 +13,13 @@ body {
     background-image: linear-gradient(to bottom right, red, brown);
 }
 
+p {
+    margin-top: 2%;
+}
+span {
+    font-weight: bold;
+}
+
 ul {
     margin-top: 5%;
     list-style: none;
